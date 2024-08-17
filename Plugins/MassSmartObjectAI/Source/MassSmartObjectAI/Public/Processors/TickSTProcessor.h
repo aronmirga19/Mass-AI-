@@ -15,6 +15,7 @@ class MASSSMARTOBJECTAI_API UTickSTProcessor : public UMassProcessor
 {
 	GENERATED_BODY()
 	
+	UTickSTProcessor();
 protected:
 	virtual void ConfigureQueries() override;
 	virtual void Execute(FMassEntityManager& EntityManager, FMassExecutionContext& Context) override;
